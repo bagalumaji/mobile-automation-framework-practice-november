@@ -19,6 +19,5 @@ public class AndroidTest {
         uiAutomator2Options.setApp(System.getProperty("user.dir")+"/src/test/resources/apps/AndroidMyDemoAppRN.apk");
         AndroidDriver androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"),uiAutomator2Options);
         androidDriver.quit();
-
     }
 }
