@@ -3,7 +3,6 @@ package com.bagal.tests;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.remote.AutomationName;
-import org.openqa.selenium.Platform;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
